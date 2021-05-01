@@ -21,7 +21,7 @@ function add_item(){
     menu_list_array.sort();
     html_data="<section class='cards'>"
     for(var i=0;i <menu_list_array.length;i ++){
-        html_data= html_data+"<div class='card'>"+"<img src='images/pizzaImg.png'"+menu_list_array[i]+"/div";
+        html_data= html_data+"<div class='card'>"+"<img src='pizzaImg.png'"+menu_list_array[i]+"/div";
     }
     html_data=html_data+"</section>";
     document.getElementById("display_addedmenu").innerHTML=html_data;
